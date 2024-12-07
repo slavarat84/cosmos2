@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header, footer {
-    background-color: #c3f7a1;
      text-align: center;
+     background-color: #62d981;
+     padding: 20px;
 }
 p {
     font-family: sans-serif;
@@ -8,6 +13,8 @@ p {
 body {
     background-color: #ffdc85;
     font-family: sans-serif;
+    text-align: center;
+    margin: 0;
 }
 h1 {
     font-size: 45px;
@@ -30,8 +37,9 @@ h3 {
     color: black;
 }
 .logo {
-    height: 50px;
-    width: 60px;
+    height: 100px;
+    width: 150px;
+    margin: 10px;
 }
 .img {
     border: 3px solid blue;
@@ -39,5 +47,8 @@ h3 {
     height: 180px;
     width: 270px;
     margin: 10px;
-    
+}
+.pheader {
+    color: gray;
+    background-color: #ffdc85;
 }
