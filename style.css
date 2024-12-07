@@ -28,18 +28,20 @@ h3 {
     font-size: 30px;
     text-align: center;
 }
- a {
+ nav a {
     border: 3px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
-    color: black;
+    color: #62d981;
+    background-color: yellow;
 }
 .logo {
     height: 100px;
     width: 150px;
     margin: 10px;
+    margin-bottom: 40px;
 }
 .img {
     border: 3px solid blue;
